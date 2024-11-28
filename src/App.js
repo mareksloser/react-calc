@@ -1,10 +1,14 @@
 import './App.css';
-import Calc from "./Calc";
+import Keyboard from "./Keyboard";
 
 function App() {
   return (
     <div className="calc" style={{ width: "300px", margin: "0 auto", display: "grid" }}>
-        <Calc />
+
+        <div className="calc__keyboard">
+            <Keyboard/>
+        </div>
+
     </div>
   );
 }
